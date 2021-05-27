@@ -5,17 +5,17 @@ class ThirdPage extends StatefulWidget {
   _ThirdPageState createState() => _ThirdPageState();
 }
 
-const List<Color> orangeGradients = [
+const List<Color> greenGradients = [
   Color(0xFFFF9844),
   Color(0xFFFE8853),
   Color(0xFFFD7267),
 ]; //Fin const
-const List<Color> purpleGradients = [
+const List<Color> yellowGradients = [
   Color(0xFF7700FF),
   Color(0xFF8351D4),
   Color(0xFF764C8A),
 ]; //Fin const
-const List<Color> blueGradients = [
+const List<Color> limeGradients = [
   Color(0xFF0F13F8),
   Color(0xFF5570C7),
   Color(0xFF5E8EF7),
