@@ -88,6 +88,34 @@ class _ThirdPageState extends State<ThirdPage> {
           },
           child: Container(padding: EdgeInsets.all(5), child: Image.asset("assets/images/img_menu.jpg")), //Fin Container 4
         ), //fin inkwell
+              
+              SizedBox(
+          height: 20.0,
+        ),
+        Container(
+          height: 100,
+          width: 175,
+          alignment: Alignment.center,
+          decoration: ShapeDecoration(
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30.0)),
+            gradient: LinearGradient(colors: lightGreenGradients),
+          ), //ShapeDecoration
+
+          child: Text('Paquete 2', textAlign: TextAlign.center, style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold) //Fin TextStyle
+              ),
+        ), //Fin Container 3
+              
+        SizedBox(
+          height: 20.0,
+        ),
+        InkWell(
+          onTap: () {
+            print('Paquete 2');
+          },
+          child: Container(padding: EdgeInsets.all(5), child: Image.asset("assets/images/img_menu.jpg")), //Fin Container 4
+        ), //fin inkwell
+              
+              
       ] //Fin Widget[]
 
               ) //Fin Column
