@@ -75,7 +75,7 @@ class SecondPage extends StatelessWidget {
             labelText: 'Password',
             icon: Icon(
               Icons.https,
-              color: Colors.greenAccent],
+              color: Colors.greenAccent,
             ),
             hintText: 'Password'),
       ),
