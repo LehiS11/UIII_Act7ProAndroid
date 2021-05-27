@@ -94,7 +94,7 @@ class SecondPage extends StatelessWidget {
               child: FadeInImage(
                 placeholder: AssetImage('assets/images/hamburguesas.gif'),
                 Image.asset("assets/images/paquete1.jpg"),
-              
+              ),),),),
             ),
           ],
         ),
