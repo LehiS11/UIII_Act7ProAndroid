@@ -50,7 +50,7 @@ class _ThirdPageState extends State<ThirdPage> {
           height: 20.0,
         ),
         Container(
-          height: 50,
+          height: 100,
           width: 175,
           alignment: Alignment.center,
           decoration: ShapeDecoration(
@@ -58,7 +58,7 @@ class _ThirdPageState extends State<ThirdPage> {
             gradient: LinearGradient(colors: limeGradients),
           ), //ShapeDecoration
 
-          child: Text('Paquetes disponibles:', textAlign: TextAlign.center, style: TextStyle(color: Colors.black, fontSize: 18, fontWeight: FontWeight.bold) //Fin TextStyle
+          child: Text('Paquetes disponibles:', textAlign: TextAlign.center, style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold) //Fin TextStyle
               ),
         ), //Fin Container 3
         SizedBox(
