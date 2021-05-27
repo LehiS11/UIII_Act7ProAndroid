@@ -38,11 +38,11 @@ class _ThirdPageState extends State<ThirdPage> {
             width: 250,
             decoration: ShapeDecoration(
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30.0)),
-              gradient: LinearGradient(colors: orangeGradients),
+              gradient: LinearGradient(colors: greenGradients),
             ), //ShapeDecoration
             child: Container(
               padding: EdgeInsets.only(top: 25.0, bottom: 16),
-              child: Text('Bienvenido', textAlign: TextAlign.center, style: TextStyle(color: Colors.white, fontSize: 38, fontWeight: FontWeight.bold) //Fin TextStyle
+              child: Text('Productos del día', textAlign: TextAlign.center, style: TextStyle(color: Colors.black, fontSize: 38, fontWeight: FontWeight.bold) //Fin TextStyle
                   ),
             ) //Fin Container
             ), //Fin Container2
@@ -55,10 +55,10 @@ class _ThirdPageState extends State<ThirdPage> {
           alignment: Alignment.center,
           decoration: ShapeDecoration(
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30.0)),
-            gradient: LinearGradient(colors: blueGradients),
+            gradient: LinearGradient(colors: limeGradients),
           ), //ShapeDecoration
 
-          child: Text('Comienza a buscar productos', textAlign: TextAlign.center, style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold) //Fin TextStyle
+          child: Text('Paquetes disponibles:', textAlign: TextAlign.center, style: TextStyle(color: Colors.black, fontSize: 18, fontWeight: FontWeight.bold) //Fin TextStyle
               ),
         ), //Fin Container 3
         SizedBox(
