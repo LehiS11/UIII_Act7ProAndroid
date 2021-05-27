@@ -5,16 +5,16 @@ class SecondPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Formulario'),
+        title: Text('Cuentas'),
         flexibleSpace: Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
               begin: Alignment.bottomRight,
               end: Alignment.bottomLeft,
               colors: [
-                Colors.cyan,
-                Colors.blue,
-                Colors.indigo
+                Colors.greenAccent,
+                Colors.black,
+                Colors.limeAccent
               ],
             ),
           ),

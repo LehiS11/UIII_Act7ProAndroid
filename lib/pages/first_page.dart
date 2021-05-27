@@ -5,8 +5,8 @@ class FirstPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Center(
-        child: Image.asset("assets/images/menu.jpg"),
-      ),
+        child: Image.asset("assets/images/img_menu.jpg"),
+      ), // center
     ); //container
   } // widget
 } // first page
