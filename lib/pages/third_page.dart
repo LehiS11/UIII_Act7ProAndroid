@@ -73,12 +73,7 @@ class _ThirdPageState extends State<ThirdPage> {
         ),//fin inkwell
               
         
-          child: Column(
-            children: <Widget>[
-              _crearCard2(),
-            
-            ],
-          ),
+          
         
       
 
