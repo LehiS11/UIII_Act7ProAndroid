@@ -66,9 +66,14 @@ class _ThirdPageState extends State<ThirdPage> {
         ),
         InkWell(
           onTap: () {
-            print('Paquete');
+            print('Paquete 1');
           },
-          child: Container(padding: EdgeInsets.all(50), child: Image.asset("assets/images/img_menu.jpg")), //Fin Container 4
+          child: Container(padding: EdgeInsets.all(50), child: Image.asset("assets/images/img_menu.jpg")
+                         Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text('Burger Sencilla'),
+            )
+                          ), //Fin Container 4
         ),
       ] //Fin Widget[]
 
