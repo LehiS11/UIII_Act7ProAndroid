@@ -38,10 +38,10 @@ class SecondPage extends StatelessWidget {
               ),
               FlatButton(
                 onPressed: () {},
-                color: Colors.indigo,
+                color: Colors.greenAccent,
                 child: Text(
                   'Enviar',
-                  style: TextStyle(color: Colors.white),
+                  style: TextStyle(color: Colors.black),
                 ),
               )
             ],
@@ -59,7 +59,7 @@ class SecondPage extends StatelessWidget {
             labelText: 'Email',
             icon: Icon(
               Icons.email,
-              color: Colors.indigo[400],
+              color: Colors.greenAccent,
             ),
             hintText: 'Email'),
       ),
@@ -75,7 +75,7 @@ class SecondPage extends StatelessWidget {
             labelText: 'Password',
             icon: Icon(
               Icons.https,
-              color: Colors.indigo[400],
+              color: Colors.greenAccent],
             ),
             hintText: 'Password'),
       ),
