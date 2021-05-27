@@ -72,17 +72,15 @@ class _ThirdPageState extends State<ThirdPage> {
           child: Container(padding: EdgeInsets.all(50), child: Image.asset("assets/images/img_menu.jpg")), //Fin Container 4
         ),//fin inkwell
               
-              body: SingleChildScrollView(
-        padding: EdgeInsets.all(20),
         child: Center(
           child: Column(
             children: <Widget>[
-              _crearCard(),
+              _crearCard2(),
             
             ],
           ),
         ),
-      ),
+      
 
   Widget _crearCard2() {
     return Card(
