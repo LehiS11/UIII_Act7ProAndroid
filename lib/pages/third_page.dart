@@ -28,7 +28,9 @@ class _ThirdPageState extends State<ThirdPage> {
         child: ConstrainedBox(
       constraints: BoxConstraints(maxWidth: 300, minWidth: 200),
       child: SingleChildScrollView(
-          child: Column(children: <Widget>[
+          child: Column(
+              
+              children: <Widget>[
         SizedBox(
           height: 20.0,
         ),
@@ -71,23 +73,11 @@ class _ThirdPageState extends State<ThirdPage> {
           child: Container(padding: EdgeInsets.all(50), child: Image.asset("assets/images/carrito.jpg")), //Fin Container 4
         ),
       ] //Fin Widget[]
-              ) //Fin Column
-          ), //Fin SingleChildScrollView
-    ) //Fin ConstrainedBox
-        body: SingleChildScrollView(
-        padding: EdgeInsets.all(20),
-        child: Center(
-          child: Column(
-            children: <Widget>[
+              children: <Widget>[
               _crearCard1(),
               _crearCard2()
             ],
-          ),
-        ),
-      ),
-  
-
-  Widget _crearCard2() {
+              Widget _crearCard2() {
     return Card(
       elevation: 5,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
@@ -122,8 +112,8 @@ class _ThirdPageState extends State<ThirdPage> {
       ),
     );
   }
-
-  Widget _crearCard1() {
+              
+      Widget _crearCard1() {
     return Card(
       elevation: 5,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
@@ -145,7 +135,12 @@ class _ThirdPageState extends State<ThirdPage> {
         ),
       ),
     );
-  }
+  }        
+              
+              
+              ) //Fin Column
+          ), //Fin SingleChildScrollView
+    ) //Fin ConstrainedBox
         
     
     ); //Fin Material
