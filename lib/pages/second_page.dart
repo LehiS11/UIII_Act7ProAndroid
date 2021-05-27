@@ -13,8 +13,8 @@ class SecondPage extends StatelessWidget {
               end: Alignment.bottomLeft,
               colors: [
                 Colors.greenAccent,
-                Colors.black,
-                Colors.limeAccent
+                Colors.greenAccent,
+                Colors.greenAccent
               ],
             ),
           ),
