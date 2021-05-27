@@ -6,11 +6,9 @@ class FirstPage extends StatelessWidget {
     return Container(
       child: Center(
         child: Text(
-          'Menu',
-          style: new TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold, color: Colors.black),
+          'First Page',
+          style: new TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold, color: Colors.black),
         ), //Text
-      ), // center
-      child: Center(
         child: Image.asset("assets/images/menu.jpg"),
       ),
     ); //container
