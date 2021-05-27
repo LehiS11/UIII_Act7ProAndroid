@@ -28,9 +28,7 @@ class _ThirdPageState extends State<ThirdPage> {
         child: ConstrainedBox(
       constraints: BoxConstraints(maxWidth: 300, minWidth: 200),
       child: SingleChildScrollView(
-          child: Column(
-              
-              children: <Widget>[
+          child: Column(children: <Widget>[
         SizedBox(
           height: 20.0,
         ),
@@ -73,17 +71,12 @@ class _ThirdPageState extends State<ThirdPage> {
           child: Container(padding: EdgeInsets.all(50), child: Image.asset("assets/images/img_menu.jpg")), //Fin Container 4
         ),
       ] //Fin Widget[]
-              
-           
-      
-              
-              
+
               ) //Fin Column
           ), //Fin SingleChildScrollView
     ) //Fin ConstrainedBox
-        
-    
-     //Fin Material
+
+        ); //Fin Material
   } // widget
-    
+
 } //Fin clase _ThirdPage
