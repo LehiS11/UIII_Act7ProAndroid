@@ -77,8 +77,8 @@ class _ThirdPageState extends State<ThirdPage> {
         child: Center(
           child: Column(
             children: <Widget>[
-              _crearCard1(),
-              _crearCard2()
+              _crearCard(),
+            
             ],
           ),
         ),
