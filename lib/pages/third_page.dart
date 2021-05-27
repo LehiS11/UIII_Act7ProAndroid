@@ -70,72 +70,12 @@ class _ThirdPageState extends State<ThirdPage> {
           onTap: () {
             print('Que bien, sigamos');
           },
-          child: Container(padding: EdgeInsets.all(50), child: Image.asset("assets/images/carrito.jpg")), //Fin Container 4
+          child: Container(padding: EdgeInsets.all(50), child: Image.asset("assets/images/img_menu.jpg")), //Fin Container 4
         ),
       ] //Fin Widget[]
-              children: <Widget>[
-              _crearCard1(),
-              _crearCard2()
-            ],
-              Widget _crearCard2() {
-    return Card(
-      elevation: 5,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-      child: Container(
-        decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(20),
-              gradient: LinearGradient(
-              begin: Alignment.topRight,
-              end: Alignment.bottomLeft,
-              colors: [
-                Colors.blue,
-                Colors.indigo[800],
-              ],
-            )
-            ),
-        padding: EdgeInsets.all(20),
-        child: Column(
-          children: <Widget>[
-            Text(
-              'BURGER FOOD',
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20, color: Colors.white),
-            ),
-            SizedBox(
-              height: 20,
-            ),
-            Text(
-              'Nuestra Burger Sencilla lleva una carne de res a la parrilla, preparada con tomates, lechuga recién cortada, mayonesa, pepinillos y cebollas en rodajas, sobre un pan suave con ajonjolí. ¡Pídela en COMBO con papas a la francesa y refresco frío!',
-              style: TextStyle(color: Colors.white),
-            )
-          ],
-        ),
-      ),
-    );
-  }
               
-      Widget _crearCard1() {
-    return Card(
-      elevation: 5,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-      child: Container(
-        child: Column(
-          children: <Widget>[
-            ClipRRect(
-              borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
-              child: FadeInImage(
-                placeholder: AssetImage('assets/burger.gif'),
-                image: NetworkImage("https://cdn.dribbble.com/users/41854/screenshots/1121005/burger-d.gif"),
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text('Burger Sencilla'),
-            )
-          ],
-        ),
-      ),
-    );
-  }        
+           
+      
               
               
               ) //Fin Column
@@ -143,7 +83,7 @@ class _ThirdPageState extends State<ThirdPage> {
     ) //Fin ConstrainedBox
         
     
-    ); //Fin Material
+     //Fin Material
   } // widget
     
 } //Fin clase _ThirdPage
