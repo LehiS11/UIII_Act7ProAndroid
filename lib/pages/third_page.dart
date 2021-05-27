@@ -69,6 +69,23 @@ class _ThirdPageState extends State<ThirdPage> {
             print('Que bien, sigamos');
           },
           child: Container(padding: EdgeInsets.all(50), child: Image.asset("assets/images/img_menu.jpg")), //Fin Container 4
+          child: Container(
+            child: Column(
+              children: <Widget>[
+                ClipRRect(
+                  borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
+                  child: FadeInImage(
+                    placeholder: AssetImage('assets/burger.gif'),
+                    image: NetworkImage("https://cdn.dribbble.com/users/41854/screenshots/1121005/burger-d.gif"),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text('Burger Sencilla'),
+                )
+              ],
+            ),
+          ),
         ),
       ] //Fin Widget[]
 
@@ -80,3 +97,4 @@ class _ThirdPageState extends State<ThirdPage> {
   } // widget
 
 } //Fin clase _ThirdPage
+e
