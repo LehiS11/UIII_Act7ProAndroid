@@ -10,10 +10,10 @@ const List<Color> greenGradients = [
   Color(0xFF8351D4),
   Color(0xFF764C8A),
 ]; //Fin const
-const List<Color> yellowGradients = [
-  Color(0xFF7700FF),
-  Color(0xFF8351D4),
-  Color(0xFF764C8A),
+const List<Color> lightGreenGradients = [
+  Color(0xFF76FF03),
+  Color(0xFF64FFDA),
+  Color(0xFFB2FF59),
 ]; //Fin const
 const List<Color> limeGradients = [
   Color(0xFF0F13F8),
@@ -46,6 +46,7 @@ class _ThirdPageState extends State<ThirdPage> {
                   ),
             ) //Fin Container
             ), //Fin Container2
+              
         SizedBox(
           height: 20.0,
         ),
@@ -62,6 +63,22 @@ class _ThirdPageState extends State<ThirdPage> {
               ),
         ), //Fin Container 3
 
+              SizedBox(
+          height: 20.0,
+        ),
+        Container(
+          height: 100,
+          width: 175,
+          alignment: Alignment.center,
+          decoration: ShapeDecoration(
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30.0)),
+            gradient: LinearGradient(colors: lightGreenGradients),
+          ), //ShapeDecoration
+
+          child: Text('Paquete 1', textAlign: TextAlign.center, style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold) //Fin TextStyle
+              ),
+        ), //Fin Container 3
+              
         SizedBox(
           height: 20.0,
         ),
