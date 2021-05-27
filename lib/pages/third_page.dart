@@ -61,6 +61,7 @@ class _ThirdPageState extends State<ThirdPage> {
           child: Text('Paquetes disponibles:', textAlign: TextAlign.center, style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold) //Fin TextStyle
               ),
         ), //Fin Container 3
+              
         SizedBox(
           height: 20.0,
         ),
@@ -68,13 +69,56 @@ class _ThirdPageState extends State<ThirdPage> {
           onTap: () {
             print('Paquete 1');
           },
-          child: Container(padding: EdgeInsets.all(50), child: Image.asset("assets/images/img_menu.jpg")
-                         Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text('Burger Sencilla'),
-            )
-                          ), //Fin Container 4
+          child: Container(padding: EdgeInsets.all(50), child: Image.asset("assets/images/img_menu.jpg")), //Fin Container 4
+        ),//fin inkwell
+              
+              body: SingleChildScrollView(
+        padding: EdgeInsets.all(20),
+        child: Center(
+          child: Column(
+            children: <Widget>[
+              _crearCard1(),
+              _crearCard2()
+            ],
+          ),
         ),
+      ),
+
+  Widget _crearCard2() {
+    return Card(
+      elevation: 5,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+      child: Container(
+        decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(20),
+              gradient: LinearGradient(
+              begin: Alignment.topRight,
+              end: Alignment.bottomLeft,
+              colors: [
+                Colors.blue,
+                Colors.indigo[800],
+              ],
+            )
+            ),
+        padding: EdgeInsets.all(20),
+        child: Column(
+          children: <Widget>[
+            Text(
+              'BURGER FOOD',
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20, color: Colors.white),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Text(
+              'Nuestra Burger Sencilla lleva una carne de res a la parrilla, preparada con tomates, lechuga recién cortada, mayonesa, pepinillos y cebollas en rodajas, sobre un pan suave con ajonjolí. ¡Pídela en COMBO con papas a la francesa y refresco frío!',
+              style: TextStyle(color: Colors.white),
+            )
+          ],
+        ),
+      ),
+    );
+  }
       ] //Fin Widget[]
 
               ) //Fin Column
