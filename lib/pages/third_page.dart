@@ -6,9 +6,9 @@ class ThirdPage extends StatefulWidget {
 }
 
 const List<Color> greenGradients = [
-  Color(0xFFFF9844),
-  Color(0xFFFE8853),
-  Color(0xFFFD7267),
+  color: Colors.black,
+  color: Colors.green,
+  color: Colors.black,
 ]; //Fin const
 const List<Color> yellowGradients = [
   Color(0xFF7700FF),
@@ -42,7 +42,7 @@ class _ThirdPageState extends State<ThirdPage> {
             ), //ShapeDecoration
             child: Container(
               padding: EdgeInsets.only(top: 25.0, bottom: 16),
-              child: Text('Productos del día', textAlign: TextAlign.center, style: TextStyle(color: Colors.black, fontSize: 38, fontWeight: FontWeight.bold) //Fin TextStyle
+              child: Text('Productos del día', textAlign: TextAlign.center, style: TextStyle(color: Colors.black, fontSize: 25.0, fontWeight: FontWeight.bold) //Fin TextStyle
                   ),
             ) //Fin Container
             ), //Fin Container2
