@@ -92,7 +92,8 @@ class SecondPage extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20), bottomLeft: Radius.circular(20), bottomRight: Radius.circular(20)),
               child: FadeInImage(
-                image: AssetImage('assets/hamburguesas.gif'),
+                placeholder: AssetImage('assets/hamburguesas.gif'),
+                image: NetworkImage("https://raw.githubusercontent.com/LehiS11/Mis_Imagenes6J/main/img_hamburguesa.gif"),
               ),
             ),
           ],
