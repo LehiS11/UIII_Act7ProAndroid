@@ -14,12 +14,12 @@ class LehiApp extends StatelessWidget {
       home: PaginaInicio(),
     );
   }
-} // Fin clase alvarezapp
+} // Fin clase lehiapp
 
 class PaginaInicio extends StatefulWidget {
   @override
   _PaginaInicioState createState() => _PaginaInicioState();
-} //Fin clase con PAgina inicio con estado
+} //Fin clase con Pagina inicio con estado
 
 class _PaginaInicioState extends State<PaginaInicio> {
   int _index = 0;
@@ -46,12 +46,12 @@ class _PaginaInicioState extends State<PaginaInicio> {
             icon: Icon(Icons.home, color: Colors.greenAccent, size: 30.0), //icon
             title: Text('Inicio')), //
         BottomNavigationBarItem(
-            icon: Icon(Icons.format_align_center, color: Colors.limeAccent, size: 30.0), //icon
+            icon: Icon(Icons.format_align_center, color: Colors.darkGreen, size: 30.0), //icon
             title: Text('Registrarse')), //
         BottomNavigationBarItem(
             icon: Icon(Icons.shopping_cart, color: Colors.redAccent, size: 30.0), //icon
             title: Text('Compras')), //
       ]), // bottom
-    ); //Fin de scaffold
+    ); //Fin scaffold
   } //Fin widget build
 } //Fin de clase _PaginaInicioState
