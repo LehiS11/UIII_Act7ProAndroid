@@ -86,7 +86,7 @@ class _ThirdPageState extends State<ThirdPage> {
           onTap: () {
             print('Paquete 1');
           },
-          child: Container(padding: EdgeInsets.all(5), child: Image.asset("assets/images/img_menu.jpg")), //Fin Container 4
+          child: Container(padding: EdgeInsets.all(5), child: Image.asset("assets/images/paquete1.jpg")), //Fin Container 4
         ), //fin inkwell
               
               SizedBox(
@@ -112,7 +112,7 @@ class _ThirdPageState extends State<ThirdPage> {
           onTap: () {
             print('Paquete 2');
           },
-          child: Container(padding: EdgeInsets.all(5), child: Image.asset("assets/images/img_menu.jpg")), //Fin Container 4
+          child: Container(padding: EdgeInsets.all(5), child: Image.asset("assets/images/paquete2.jpg")), //Fin Container 4
         ), //fin inkwell
               
               
