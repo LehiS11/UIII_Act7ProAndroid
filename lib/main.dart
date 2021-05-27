@@ -29,7 +29,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
     Widget child; //widget creado por el usuario
     switch (_index) {
       case 0:
-        child = FlutterLogo();
+        child = MaterialApp(debugShowCheckedModeBanner: false, home: new FirstPage());
         break;
       case 1:
         child = MaterialApp(debugShowCheckedModeBanner: false, home: new SecondPage());
@@ -44,9 +44,9 @@ class _PaginaInicioState extends State<PaginaInicio> {
       bottomNavigationBar: BottomNavigationBar(onTap: (newIndex) => setState(() => _index = newIndex), currentIndex: _index, items: [
         BottomNavigationBarItem(
             icon: Icon(Icons.home, color: Colors.greenAccent, size: 30.0), //icon
-            title: Text('Inicio')), //
+            title: Text('Menu')), //
         BottomNavigationBarItem(
-            icon: Icon(Icons.format_align_center, color: Colors.darkGreen, size: 30.0), //icon
+            icon: Icon(Icons.format_align_center, color: Colors.black, size: 30.0), //icon
             title: Text('Registrarse')), //
         BottomNavigationBarItem(
             icon: Icon(Icons.shopping_cart, color: Colors.redAccent, size: 30.0), //icon
