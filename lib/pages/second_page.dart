@@ -93,7 +93,7 @@ class SecondPage extends StatelessWidget {
               borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20), bottomLeft: Radius.circular(20), bottomRight: Radius.circular(20)),
               child: FadeInImage(
                 Image.asset('assets/images/hamburguesas.gif'),
-              ),
+              ),),
             ),
           ],
         ),
